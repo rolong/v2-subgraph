@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: CRA
     source:
-      address: '0xf449D73448eC225a9faC018e5dCa2b20FB33c8fA'
+      address: '0xce03f355696533356c50791390a8f406fc28037a'
       abi: Factory
-      startBlock: 889510
+      startBlock: 114055
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
