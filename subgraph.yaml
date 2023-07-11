@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: CRA
+    network: CRC
     source:
       address: '0x5b3dd3017a4232d0ffafe7b0d31e468091f1467d'
       abi: Factory
