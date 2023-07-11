@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: CRA
+    network: CRC
     source:
       abi: Pair
     mapping:
