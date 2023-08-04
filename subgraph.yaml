@@ -8,7 +8,7 @@ dataSources:
     name: Factory
     network: CRA
     source:
-      address: '0xd017516FE6f7Db83c7B446bF7f3bbAfa3f84701C'
+      address: '0xd017516fe6f7db83c7b446bf7f3bbafa3f84701c'
       abi: Factory
       startBlock: 1
     mapping:
