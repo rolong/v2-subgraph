@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: MOD
+    network: MAX
     source:
-      address: '0x1c7b934c3a567bb61913aeb6bff6eb4eea227e24'
+      address: '0xe7f327a11fd8bbb38df65f1f70bb1d194d4404e1'
       abi: Factory
       startBlock: 1
     mapping:
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: MOD
+    network: MAX
     source:
       abi: Pair
     mapping:
