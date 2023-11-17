@@ -3,10 +3,10 @@ import { Pair, Token, Bundle } from '../types/schema'
 import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD, UNTRACKED_PAIRS } from './helpers'
 
-const WETH_ADDRESS = '0xbcacc022eaf3f3fd1649d96ddd59a17a0ee068bc'
+const WETH_ADDRESS = '0x25f031051cfb70af0f519922898e75737aca84ff'
 // const USDC_WETH_PAIR = '0x2D3fB23691afe6f62CB9fb27A890E91726FC11B8' // created 10008355
 // const DAI_WETH_PAIR = '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11' // created block 10042267
-const USDT_WETH_PAIR = '0x07b96843ae92f34f96a5d702497186be8bb57efa' // created block 10093341
+const USDT_WETH_PAIR = '0x845c13f5d4fc37adb6ebf9d474121ba0d1d6350b' // created block 10093341
 
 export function getEthPriceInUSD(): BigDecimal {
   let usdtPair = Pair.load(USDT_WETH_PAIR) // usdt is token1
@@ -47,8 +47,8 @@ export function getEthPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  '0xbcacc022eaf3f3fd1649d96ddd59a17a0ee068bc', // WETH
-  '0x3d27c130aa606cb9fd05a6ab39d93280a41d5dd6', // USDT
+  '0x25f031051cfb70af0f519922898e75737aca84ff', // WETH
+  '0x2a7b32eca0467a896ad0869561362aba27448e8e', // USDT
   // '0xfcdbc3761af19123e0d2f59e2d9ebc9a09dffe7b', // USDC
   // '0x6b175474e89094c44da98b954eedeac495271d0f', // DAI
   // '0x0000000000085d4780b73119b644ae5ecd22b376', // TUSD
