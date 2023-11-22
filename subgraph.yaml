@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: CRC
+    network: uChain
     source:
-      address: '0x6caa570bae261ef88c4d7d148a26172e431904e2'
+      address: '0x3613c536c8680f38bb275f4460856f01783abfa0'
       abi: Factory
       startBlock: 1
     mapping:
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: CRC
+    network: uChain
     source:
       abi: Pair
     mapping:
